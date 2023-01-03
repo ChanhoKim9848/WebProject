@@ -5,6 +5,6 @@
 This project is for the development of a personal blog website. <br>
 
 # Tools
-JAVA, SPRING BOOT
+JAVA, SPRING BOOT, MYSQL
 
 
