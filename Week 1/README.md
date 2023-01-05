@@ -11,3 +11,5 @@ UTF-8 (Universal Coded Character Set + Transformation Format – 8-bit) <br>
 <br> UTF-8 is an encoding system for Unicode. It can translate any Unicode character to a matching unique binary string,
 <br> and can also translate the binary string back to a Unicode character
 <br> Unicode alone doesn’t store words in binary. Computers need a way to translate
+<br>
+# 04/01/23
