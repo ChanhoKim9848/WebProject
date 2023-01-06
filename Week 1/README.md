@@ -16,7 +16,7 @@ so we will use free version of Spring tool called Spring Tool Suite4 which is si
 ### what I have learned: <br>
 UTF-8 은 Universal Coded Character Set + Transformation Format – 8-bit 의 약자이고<br>
 유니코드의 암호화를 위해서 사용된다.<br>
-UTF-8은 유니코드 글자를 2진수의 형태로 서로 변환이 가능하며 
+UTF-8은 유니코드 글자를 2진수의 형태로 변환 가능하며 전 세계의 언어를 컴퓨터가 인식할수 있게 2진수로 변환하고 최대 4바이트까지 표현가능
 
 UTF-8 (Universal Coded Character Set + Transformation Format – 8-bit) <br>
 <br> UTF-8 is an encoding system for Unicode. It can translate any Unicode character to a matching unique binary string,
@@ -25,4 +25,5 @@ UTF-8 (Universal Coded Character Set + Transformation Format – 8-bit) <br>
 <br>
 # 05/01/23
 ### Set Dependencies
+
 
