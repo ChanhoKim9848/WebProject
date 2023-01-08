@@ -29,12 +29,22 @@ and encodes Unicode to binary form (ex: 00100) which computer can understand and
 # 05/01/23
 ### Set Dependencies <br>
 
-Spring boot DevTools<br>
-Lombok<br>
-Spring Data JPA<br>
-MYSQL Driver<br>
+Spring boot DevTools :  this module can be included in any project to provide additional development-time features<br>
+for example: Application will automatically restart whenever files on the classpath change (Restart)<br>
+
+Lombok: offers various annotations aimed at replacing Java code that is well known for<br>
+being boilerplate, repetitive, or tedious to write.<br>
+
+Spring Data JPA: is part of the larger Spring Data family, makes it easy to easily implement JPA based repositories<br>
+
+MYSQL Driver: MYSQL is used for saving data in the database <br>
+
 Spring Security<br>
-Spring Web<br>
+
+Spring Web:
+In the past version of Spring, users need to install Tomcat (Web Application Server) to make a server,<br>
+however, this module provides web service so that users do not need to install Tomcat.
+<br>
 
 # 08/01/23
 
