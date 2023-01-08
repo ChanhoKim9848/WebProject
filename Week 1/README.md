@@ -54,7 +54,6 @@ JSP template engine<br>
 Security Tag Library<br>
 
 ### MYSQL Settings
-<br>
 Grant all permissions and privileges to admin
 
 
