@@ -41,8 +41,7 @@ MYSQL Driver: MYSQL is used for saving data in the database <br>
 
 Spring Security<br>
 
-Spring Web:
-In the past version of Spring, users need to install Tomcat (Web Application Server) to make a server,<br>
+Spring Web: In the past version of Spring, users need to install Tomcat (Web Application Server) to make a server,<br>
 however, this module provides web service so that users do not need to install Tomcat.
 <br>
 
