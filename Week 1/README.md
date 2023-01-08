@@ -27,8 +27,13 @@ and encodes Unicode to binary form (ex: 00100) which computer can understand and
 
 <br>
 # 05/01/23
-### Set Dependencies
-
+### Set Dependencies<br>
+Spring boot DevTools<br>
+Lombok<br>
+Spring Data JPA<br>
+MYSQL Driver<br>
+Spring Security<br>
+Spring Web<br>
 
 # 08/01/23
 
