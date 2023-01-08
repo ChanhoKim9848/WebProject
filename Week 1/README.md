@@ -47,6 +47,18 @@ however, this module provides web service so that users do not need to install T
 
 # 08/01/23
 ### Additional Dependencies
+<br>
+pom.xml<br>
+JSTL<br>
+JSP template engine<br>
+Security Tag Library<br>
+
+### MYSQL Settings
+<br>
+Grant all permissions and privileges to admin
+
+
+
 
 
 
