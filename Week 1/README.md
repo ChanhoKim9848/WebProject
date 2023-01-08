@@ -22,12 +22,13 @@ UTF-8 은 Universal Coded Character Set + Transformation Format – 8-bit 의 �
 UNICODE is a unique number for character of every language to use on any devices, applications and platforms.<br>
 UTF-8 (Universal Coded Character Set + Transformation Format – 8-bit) represents Unicode text in web pages<br>
 and encodes Unicode to binary form (ex: 00100) which computer can understand and one character can be store in maximum 4 bytes.
-
-
-
 <br>
-# 05/01/23 <br>
+<br>
+<br>
+
+# 05/01/23
 ### Set Dependencies <br>
+
 Spring boot DevTools<br>
 Lombok<br>
 Spring Data JPA<br>
