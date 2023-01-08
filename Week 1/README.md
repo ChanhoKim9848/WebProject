@@ -14,16 +14,22 @@ so we will use free version of Spring tool called Spring Tool Suite4 which is si
 # 04/01/23
 ### KeyMap Setting and UTF-8 for my Website <br>
 ### what I have learned: <br>
-UTF-8 은 Universal Coded Character Set + Transformation Format – 8-bit 의 약자이고<br>
-유니코드의 암호화를 위해서 사용된다.<br>
-UTF-8은 유니코드 글자를 2진수의 형태로 변환 가능하며 전 세계의 언어를 컴퓨터가 인식할수 있게 2진수로 변환하고 최대 4바이트까지 표현가능
 
-UTF-8 (Universal Coded Character Set + Transformation Format – 8-bit) <br>
-<br> UTF-8 is an encoding system for Unicode. It can translate any Unicode character to a matching unique binary string,
-<br> and can also translate the binary string back to a Unicode character
-<br> Unicode alone doesn’t store words in binary. Computers need a way to translate
+유니코드(Unicode)는 전 세계의 있는 모든 문자를 컴퓨터에서 사용할 수 있도록 표현 하는 표이다 <br>
+UTF-8 은 Universal Coded Character Set + Transformation Format – 8-bit 의 약자이고<br>
+유니코드 Unicode 컴퓨터가 이해할 수 있는 형태인 2진수 (예시: 00100)와 같은 형태로 인코딩(encoding) 해서 한 글자당 1바이트에서 최대 4바이트까지 저장 가능하다 <br>
+<br>
+UNICODE is a unique number for character of every language to use on  device, application, computers and any platforms.<br>
+UTF-8 (Universal Coded Character Set + Transformation Format – 8-bit) represents Unicode text in web pages<br>
+and encodes Unicode to binary form which computer can understand and one character can be store in maximum 4 bytes.
+
+
+
 <br>
 # 05/01/23
 ### Set Dependencies
+
+
+# 08/01/23
 
 
