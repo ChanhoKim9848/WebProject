@@ -1,6 +1,3 @@
-# WEEK 2
-
-
 # 09/01/2023
 
 Connect MYSQL to Spring Boot<br>
