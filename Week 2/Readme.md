@@ -1,6 +1,6 @@
 # WEEK 2
 <br>
-### 09/01/2023
+# 09/01/2023
 <br>
 Connect MYSQL to Spring Boot<br>
 application.yml<br>
