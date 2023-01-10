@@ -1,15 +1,6 @@
 # WEEK 1
-
-Spring Tool Suite4 를 사용하게 된 계기: <br>
-JetBrains의 회사에서 나온 웹 개발 툴이며 이 회사에서는 IntelliJ (자바, 스프링, 앱개발), Android Studio 와 코틀린 (안드로이드 개발언어)를 제공하지만 유료입니다.<br>
-고로 무료로 사용할 수 있는 Spring Tool Suite4를 사용하게 됐고 Spring과 비슷한 웹 개발 툴입니다.<br>
 <br>
 <br>
-<br>
-The reason why Spring Tool Suite4 will be used <br>
-JetBrains company is a software development one to make a tool for developers<br>
-such as IntelliJ (Java,Spring and apps), Android Studio and Kotlin (Android Language) but is not free <br>
-so we will use free version of Spring tool called Spring Tool Suite4 which is similar to the software mentioned above <br>
 
 # 04/01/23
 ### KeyMap Setting and UTF-8 for my Website <br>
