@@ -11,7 +11,7 @@ The data type yml is similar to JSON and all kinds of spring boot settings such 
 <br>
 <br>
 # 10/01/2023<br>
-Github와 Spring Boot 연결
+Github와 Spring Boot 연결<br>
 Connect Github to Spring Boot
 
 
