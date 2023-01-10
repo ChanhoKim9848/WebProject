@@ -5,9 +5,10 @@
 This project is for the development of a personal blog website. <br>
 
 # Tools
-JAVA, SPRING BOOT, MYSQL, SPRING TOOL SUITE<br>
+Programming Language: Java, HTML, CSS, JavaScript<br>
+Software: SPRING BOOT, MYSQL, SPRING TOOL SUITE<br>
 <br>
-
+<br>
 # Why Spring Boot (STS)?
 스프링 부트는 JetBrains 회사에서 무료로 제공하는 웹사이트 개발툴입니다<br>
 JetBrains 회사에서는 IntelliJ (JAVA, Spring, App) 그리고 Android Studio (안드로이드 앱개발) 자바 개발툴들을 제공하지만 이것들은 유료입니다<br>
