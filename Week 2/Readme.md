@@ -11,6 +11,7 @@ The data type yml is similar to JSON and all kinds of spring boot settings such 
 Github와 Spring Boot 연결<br>
 Connect Github to Spring Boot<br>
 
+매일의 블로그 프로젝트의 변화를 기록하고 관리하기위해서 깃헙을 사용.<br>
 Github should be connected to Spring Boot as we may need to manage project files<br>
 by storing and tracking every changes and reports on every commits<br>
 
