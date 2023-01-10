@@ -1,7 +1,3 @@
-# WEEK 1
-<br>
-<br>
-
 # 04/01/23
 ### KeyMap Setting and UTF-8 for my Website <br>
 ### what I have learned: <br>
