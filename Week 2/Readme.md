@@ -19,14 +19,7 @@ by storing and tracking every changes and reports on every commits
 ### Git의 3가지 영역: 작업영역(Folder), 인덱스(INDEX) 그리고 헤드(HEAD)
 Git의 세가지 영역을 동기화 함으로써 프로젝트 형상관리가 가능합니다
 
-                  #add                 #commit
-작업영역(Folder)   ->    인덱스(INDEX)   ->    헤드(Head)
-Join.java                 Join.java               l- Join.java
-Login.java                Login.java              l- Login.java
-                                                  l <- branch
-                    <-------------------------> 
-                       동기화(synchronization)
-         
+![poster](./git.jpg)
 
 
 
