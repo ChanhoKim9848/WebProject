@@ -22,7 +22,11 @@ Git의 세가지 영역을 동기화 함으로써 프로젝트 형상관리가 �
 ![poster](./git.jpg)
 
 
-
+# 13/01/2023
+### HTTP1.1
+![poster](./HttpCommunication.jpg)
+                     
+                     
 
 
 
