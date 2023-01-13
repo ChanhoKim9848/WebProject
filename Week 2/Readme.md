@@ -25,6 +25,27 @@ Git의 세가지 영역을 동기화 함으로써 프로젝트 형상관리가 �
 # 13/01/2023
 ### HTTP1.1
 ![poster](./HttpCommunication.jpg)
+
+### Stateful and Stateless
+
+### Stateful
+
+클라이언트와 서버간의 통신이 요청이나 응답이 끝나도 계속해서 연결돼 있는 구조이며 유저들이 인터넷을 통해서
+기록이 가능하고 이전에 만들어진 정보로 다시 돌아와서 처리를 할수 있는 것.
+Communication between client and server keeps connected and allow users to store
+record and return to already established information and processes over the internet.클
+
+### Stateless
+클라이언트와 서버간의 통신이나 요청이 끝나면 바로 연결이 없어지며 이전에 교환이 저장되거나 참조 되어지지 않는 방식.
+Communicaton between client and server keeps connected only when they communicate and then disconnected, which the previous transactions is neither stored nor referenced in subsequent transactions.
+
+### HTTP Sessions
+
+서버가 여러 클라이언트들의 요청과 응답사이의 특정 데이터를 유지하고 식별하기 위한 방법.
+It is a standard feature that allows Web servers to maintain user identity and to store user-specific data during multiple request/response interactions between a client application and a Web application.
+
+
+
                      
                      
 
