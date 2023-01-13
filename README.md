@@ -5,7 +5,8 @@ Since 02/01/2023
 This project is for the development of a personal blog website.
 
 # Tools
-Programming Language: Java, HTML, CSS, JavaScript
+Programming Language: Java, HTML, CSS, JavaScript 
+
 Software: SPRING BOOT, MYSQL, SPRING TOOL SUITE, Git
 
 # Why Spring Boot (STS)?
