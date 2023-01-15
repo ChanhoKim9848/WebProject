@@ -44,7 +44,7 @@ Communicaton between client and server keeps connected only when they communicat
 서버가 여러 클라이언트들의 요청과 응답사이의 특정 데이터를 유지하고 식별하기 위한 방법.
 It is a standard feature that allows Web servers to maintain user identity and to store user-specific data during multiple request/response interactions between a client application and a Web application.
 
-# 13/01/2023
+# 14/01/2023
 ###MIME 타입
 
           Post Request
