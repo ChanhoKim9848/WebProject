@@ -47,7 +47,7 @@ It is a standard feature that allows Web servers to maintain user identity and t
 # 14/01/2023
 ###MIME 타입
 
-          Post Request
+          Post Request 
 Client ------------------> Server
          헤더(Header): Data 설명 (Data information)
          바디(Body): Data
