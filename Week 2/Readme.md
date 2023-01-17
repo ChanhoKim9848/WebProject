@@ -56,10 +56,7 @@ Http Communication
 회선 교환(Circuit Switching): 발신자와 수신자 사이의 연결이 1:1인 회선/채널
 Two network nodes establish a dedicated communications channel (circuit) through the network before the nodes may communicate.
 The circuit guarantees the full bandwidth of the channel and remains connected for the duration of the communication session.
-
-A ------------------> B
-A_Data
-C------------------->
+![poster](./CircuitSwitching.jpg)
 
 
 패킷 교환(Packet Switching):  작은 블록의 패킷단위로 나눈 데이터를 전송하며 데이터를 전송하는 동안만 네트워크 자원을 사용하도록 하는 방법을 말한다
@@ -69,7 +66,7 @@ Packets are made of a header and a payload. Data in the header is used by networ
 where the payload is extracted and used by an operating system, application software, or higher layer protocols.
 Packet switching is the primary basis for data communications in computer networks worldwide
 
-
+![poster](./PacketSwitching.jpg)
 
 
                      
