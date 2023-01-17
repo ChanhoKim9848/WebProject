@@ -12,5 +12,5 @@ Variances should be changed by method in a class.
 
 ### Get Request on Params, Post Request on Body
 
-Parsing mapping, Json Message Converter
+Object mapping and parsing to use Json by Message Converter
 
