@@ -63,7 +63,8 @@ Packet switching is the primary basis for data communications in computer networ
 ![poster](./PacketSwitching.jpg)
 
 
-###MIME (Multipurpose Internet Mail Extensions) 타입
+### MIME (Multipurpose Internet Mail Extensions) 타입
+
 MIME 타입은 이메일에 첨부된 파일을 텍스트 문자 형태로 변환해서 이메일과 함께 전송하기 위해 개발된 포맷이다
 MIME type is a format to transmit the data such as image, document, text by changing it to text form on email.
 
