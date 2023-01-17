@@ -45,12 +45,6 @@ Communicaton between client and server keeps connected only when they communicat
 It is a standard feature that allows Web servers to maintain user identity and to store user-specific data during multiple request/response interactions between a client application and a Web application.
 
 # 14/01/2023
-###MIME 타입
-
-          Post Request 
-Client ------------------> Server
-         헤더(Header): Data 설명 (Data information)
-         바디(Body): Data
          
 Http Communication
 회선 교환(Circuit Switching): 발신자와 수신자 사이의 연결이 1:1인 회선/채널
@@ -67,6 +61,14 @@ where the payload is extracted and used by an operating system, application soft
 Packet switching is the primary basis for data communications in computer networks worldwide
 
 ![poster](./PacketSwitching.jpg)
+
+
+###MIME (Multipurpose Internet Mail Extensions) 타입
+MIME 타입은 이메일에 첨부된 파일을 텍스트 문자 형태로 변환해서 이메일과 함께 전송하기 위해 개발된 포맷이다
+MIME type is a format to transmit the data such as image, document, text by changing it to text form on email.
+
+![poster](./MIME.jpg)
+
 
 
                      
