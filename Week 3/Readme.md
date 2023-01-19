@@ -15,3 +15,4 @@ Variances should be changed by method in a class.
 
 Object mapping and parsing to use Json by Message Converter
 
+#20/01/23
