@@ -33,5 +33,17 @@ In a project, pom.xml describes what resources and libraries are needed for the 
 ### Lombok Settings
 
 # 24/01/23
+### Lombok 
+코드의 재사용과 반복을 줄여주며 어노테이션을 제공함으로써 시간을 절약 시켜주는 자바 라이브러리
+a java library tool that is used to minimize/remove the boilerplate code and may save the development time by just using some annotations.
+
+
+@Builder 어노테이션의 장점:
+1. 객체에 값을 넣을때 순서를 지키지 않아도 된다.
+2. 객체 값 순서를 헷갈려서 객체의 값을 잘못 넣는 실수하는 것을 방지한다.
+    
+@Builder Anotation:
+1. when we put values in variables, we do not need to care about the order which is necessary in using constructors
+2. may minimize any mistakes due to break the order
 
 
