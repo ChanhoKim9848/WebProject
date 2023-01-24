@@ -38,11 +38,11 @@ In a project, pom.xml describes what resources and libraries are needed for the 
 a java library tool that is used to minimize/remove the boilerplate code and may save the development time by just using some annotations.
 
 
-@Builder 어노테이션의 장점:
+### @Builder 어노테이션의 장점:
 1. 객체에 값을 넣을때 순서를 지키지 않아도 된다.
 2. 객체 값 순서를 헷갈려서 객체의 값을 잘못 넣는 실수하는 것을 방지한다.
     
-@Builder Anotation:
+### @Builder Anotation:
 1. when we put values in variables, we do not need to care about the order which is necessary in using constructors
 2. may minimize any mistakes due to break the order
 
