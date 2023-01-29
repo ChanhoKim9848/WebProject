@@ -8,7 +8,10 @@ server settings such as port, servlet, path are done in application.yml which is
 # 28/01/2023
 
 ### Making Tables in the Database of the Blog
-![poster](./table.jpg)
+### user table 
+![poster](./user.jpg)
 
-# 28/01/2023
 
+# 29/01/2023
+### board table
+![poster](./board.jpg)
