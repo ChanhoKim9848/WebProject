@@ -11,8 +11,18 @@ import javax.persistence.Id;
 import org.hibernate.annotations.ColumnDefault;
 import org.hibernate.annotations.CreationTimestamp;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-// ORM -> Java ( other languages ) Object -> mapping tables 
+
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder // Builder pattern
+//ORM -> Java ( other languages ) Object -> mapping tables 
 @Entity // User class read data and makes a table in MySQL
 public class User {
 	
