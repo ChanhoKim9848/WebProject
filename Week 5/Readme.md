@@ -18,5 +18,7 @@ application programming interface specification that describes the management of
 
 # 01/02/2023
 
-### JSON
+### JSON (JavaScript Object Notation)
+JSON은 사람이 읽을 수 있는 텍스트 기반의 데이터 교환 표준입니다
+데이터를 저장하거나 전송할때 JSON으로 표기하여 사람과 기게 모두가 읽기 쉬운 형태로 변환하여 용이하게 함
 
