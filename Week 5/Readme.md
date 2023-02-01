@@ -16,5 +16,7 @@ JPA: 관계형 데이터베이스의 관리를 표현하는 자바 API
 application programming interface specification that describes the management of relational data in enterprise Java applications.
 ![poster](./JPA.jpg)
 
+# 01/02/2023
 
+### JSON
 
