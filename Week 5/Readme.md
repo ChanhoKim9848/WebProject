@@ -26,3 +26,7 @@ JSON은 사람이 읽을 수 있는 텍스트 기반의 데이터 교환 표준�
 
 
 # 02/02/2023
+
+### Data Insert for Registration
+
+![poster](./JSON.jpg)
