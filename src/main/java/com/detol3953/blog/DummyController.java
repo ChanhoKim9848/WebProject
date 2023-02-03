@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.detol3953.blog.model.RoleType;
 import com.detol3953.blog.model.User;
 import com.detol3953.blog.repository.UserRepository;
 
@@ -26,6 +27,7 @@ public class DummyController {
 		System.out.println("username: "+user.getRole());
 		System.out.println("username: "+user.getCreateDate());
 		
+		user.setRole(RoleType.USER);
 		userRepository.save(user);
 		return "회원가입 완료 Registration Done";
 		

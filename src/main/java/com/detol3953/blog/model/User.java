@@ -4,12 +4,15 @@ import java.sql.Timestamp;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import org.hibernate.annotations.ColumnDefault;
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.DynamicInsert;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -22,8 +25,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder // Builder pattern
-//ORM -> Java ( other languages ) Object -> mapping tables 
-@Entity // User class read data and makes a table in MySQL
+                  //ORM -> Java ( other languages ) Object -> mapping tables 
+
+@Entity // 유저 클래스가 데이터를 읽고 MySQL에 테이블 생성
+               //  User class read data and makes a table in MySQL
+
+// @DynamicInsert  // Insert 시에 null 인 field 를 제외
+                                     // no null fields in table when insert
 public class User {
 	
 	@Id // Primary Key
@@ -42,9 +50,11 @@ public class User {
 	
 	@Column(nullable = false, length = 50)
 	private String email;
-	
-	@ColumnDefault(" 'user' ")
-	private String role; // Enum could be good for data's domain, // admin, user, manager
+
+	// @ColumnDefault("user")
+	// DB는 RoleType 이 없다, DB does not have RoleType
+	@Enumerated(EnumType.STRING)
+	private RoleType role; // Enum could be good for data's domain, // ADMIN, USER
 	
 	@CreationTimestamp // Time inserted automatically
 	private Timestamp createDate;
