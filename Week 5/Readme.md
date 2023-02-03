@@ -35,7 +35,6 @@ JSON은 사람이 읽을 수 있는 텍스트 기반의 데이터 교환 표준�
 
 ### 회원가입에 역할(role) 넣기
 Using enum to insert role when user register
-
 enum을 사용함으로써 회원가입시 role(admin or user)을 강제해서 넣을수있다
 enum forces to insert role in the table
 
