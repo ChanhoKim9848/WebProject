@@ -41,3 +41,12 @@ enum을 사용함으로써 회원가입시 role(admin or user)을 강제해서 �
 
 ![poster](./enum.jpg)
 
+# 03/02/2023
+
+### select data with id
+
+![poster](./idSelect.jpg)
+![poster](./idSelect2.jpg)
+![poster](./idSelect3.jpg)
+
+
