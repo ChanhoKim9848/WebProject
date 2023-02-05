@@ -46,7 +46,12 @@ enum을 사용함으로써 회원가입시 role(admin or user)을 강제해서 �
 ### select data with id
 
 ![poster](./idSelect.jpg)
+
+
+
 ![poster](./idSelect2.jpg)
+
+
 ![poster](./idSelect3.jpg)
 
 
