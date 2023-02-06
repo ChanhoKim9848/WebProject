@@ -4,4 +4,4 @@
 
 ![poster](./paging.jpg)
 
-![poster](./paging1.jpg)
+![poster](./paging2.jpg)
