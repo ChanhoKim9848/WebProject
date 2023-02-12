@@ -15,3 +15,7 @@
 
 ![poster](./update2.jpg)
 
+# 08/02/23
+
+### JPA 영속성 컨텍스트 (JPA Persistence Context)
+
