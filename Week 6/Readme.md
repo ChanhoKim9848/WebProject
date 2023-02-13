@@ -19,3 +19,4 @@
 
 ### JPA 영속성 컨텍스트 (JPA Persistence Context)
 
+### 더티체킹 (Dirty Checking)
