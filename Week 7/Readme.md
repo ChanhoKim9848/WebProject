@@ -11,9 +11,7 @@
 
 # 14/02/23
 
-### Exception 
-
-### GlobalHandlerException
+### 예외처리 (Exception) - GlobalHandlerException.java
 
 ![poster](./Exception0.jpg)
 
