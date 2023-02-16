@@ -43,3 +43,8 @@ http://localhost:8000/blog/user?=username=detol3953
 
 통일: 자바스크립트로 ajax 요청 -> 데이터는 json으로 통일
 
+
+# 16/02/23 
+
+### 메인화면 
+### 부트스트랩 사용 - Start Using BootStrap 4
