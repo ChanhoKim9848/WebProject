@@ -46,5 +46,5 @@ http://localhost:8000/blog/user?=username=detol3953
 
 # 16/02/23 
 
-### 메인화면 
+### 메인화면 만들기
 ### 부트스트랩 사용 - Start Using BootStrap 4
