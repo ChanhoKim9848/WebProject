@@ -71,9 +71,12 @@ Container (Card) - https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs
 ### 회원가입 페이지 (Register Form) - joinForm.jsp 
 
 header.jsp, index.jsp, footer.jsp 세개로 나누기
+
 <%@ include file="layout/header.jsp"%> 
 index.jsp
 <%@ include file="layout/footer.jsp"%>
+
+![poster](./divide.jpg)
 
 ![poster](./loginForm.jpg)
 
