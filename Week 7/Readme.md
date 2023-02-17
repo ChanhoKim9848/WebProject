@@ -51,8 +51,11 @@ http://localhost:8000/blog/user?=username=detol3953
 
 1. index.jsp
 Header (Navigation Bar) - https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp
+
 Footer - https://www.w3schools.com/bootstrap4/bootstrap_templates.asp
+
 Container (Card) - https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_card_image&stacked=h
+
 
 ![image](./index.jpg)
 
