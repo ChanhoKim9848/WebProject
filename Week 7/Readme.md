@@ -2,26 +2,26 @@
 
 ### 삭제하기 테스트 (Delete Testing)
 
-![poster](./delete.jpg)
+![image](./delete.jpg)
 
-![poster](./delete2.jpg)
+![image](./delete2.jpg)
 
-![poster](./delete3.jpg)
+![image](./delete3.jpg)
 
 
 # 14/02/23
 
 ### 예외처리 (Exception) - GlobalHandlerException.java
 
-![poster](./Exception0.jpg)
+![image](./Exception0.jpg)
 
-![poster](./Exception.jpg)
+![image](./Exception.jpg)
 
-![poster](./Exception2.jpg)
+![image](./Exception2.jpg)
 
-![poster](./Exception3.jpg)
+![image](./Exception3.jpg)
 
-![poster](./Exception4.jpg)
+![image](./Exception4.jpg)
 
 
 #
@@ -54,7 +54,7 @@ Header (Navigation Bar) - https://www.w3schools.com/bootstrap4/bootstrap_navbar.
 Footer - https://www.w3schools.com/bootstrap4/bootstrap_templates.asp
 Container (Card) - https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_card_image&stacked=h
 
-![poster](./index.jpg)
+![image](./index.jpg)
 
 
 
@@ -72,9 +72,9 @@ Container (Card) - https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs
 
 header.jsp, index.jsp, footer.jsp 세개로 나누기
 
-![poster](./divide.jpg)
+![image](./divide.jpg)
 
-![poster](./loginForm.jpg)
+![image](./loginForm.jpg)
 
 ![image](./joinForm.jpg)
 
