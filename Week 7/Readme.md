@@ -76,7 +76,7 @@ header.jsp, index.jsp, footer.jsp 세개로 나누기
 
 ![poster](./loginForm.jpg)
 
-![poster](./joinForm.jpg)
+![image](./joinForm.jpg)
 
 
 
