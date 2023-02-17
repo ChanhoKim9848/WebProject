@@ -49,7 +49,8 @@ http://localhost:8000/blog/user?=username=detol3953
 ### 메인화면 만들기
 ### 부트스트랩 사용 - Start Using BootStrap 4
 
-1. index.jsp
+### index.jsp
+
 Header (Navigation Bar) - https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp
 
 Footer - https://www.w3schools.com/bootstrap4/bootstrap_templates.asp
