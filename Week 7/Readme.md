@@ -90,8 +90,16 @@ header.jsp, index.jsp, footer.jsp 세개로 나누기
 
 
 
-
-
-
 # 18/02/23
+
+### 회원가입 세팅 - Register settings
+
+### user.js
+
+회원가입 페이지에서 username,password, email을 입력
+ajax 통신을 이용해서 위 3개의 데이터를 json으로 변경하여 insert 요청
+
+put username, password and email on register form.
+3 data changes to json by ajax communication and request insert.
+
 
