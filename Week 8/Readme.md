@@ -12,7 +12,7 @@ To get JSON form of the data from the server after user request to the server.
 
 Example:
 
-[!image](./AjaxReason.jpg)           
+![image](./AjaxReason.jpg)           
                       
 
 Data를 리턴하는 서버로 통일
