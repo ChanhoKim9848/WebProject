@@ -7,8 +7,9 @@
 
 ### Ajax 를 사용하는 이유 - The reason why we use Ajax
 
-1) 요청에 대한 응답을 html이 아닌 Data(JSON)을 받기 위해서 사용.
-To get JSON form of the data from the server after user request to the server.
+### 1) 요청에 대한 응답을 html이 아닌 Data(JSON)을 받기 위해서 사용.
+
+### To get JSON form of the data from the server after user request to the server.
 
 Example:
 
