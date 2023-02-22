@@ -29,4 +29,15 @@ We just need to make only one server to return data to client
 ### For Asynchronous Communication
 
 비동기처리 - 순서에 상관없이 일을 처리한다
+
 Asynchronous processing - process the work without following the sequence of the procedure.
+
+
+
+# 22/02/2023
+
+### 회원가입 - AJAX 요청 
+### Registeration - AJAX Request
+
+![image](./register.jpg) 
+![image](./register2.jpg) 
