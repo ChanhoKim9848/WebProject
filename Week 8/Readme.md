@@ -24,9 +24,7 @@ Data를 리턴하는 서버로 통일
 We just need to make only one server to return data to client
 
 
-### 2) 비동기 통신을 하기 위해서 
-
-### For Asynchronous Communication
+### 2) 비동기 통신을 하기 위해서 - Asynchronous Communication
 
 비동기처리 - 순서에 상관없이 일을 처리한다
 
