@@ -35,7 +35,7 @@ Asynchronous processing - process the work without following the sequence of the
 # 22/02/2023
 
 ### 회원가입 - AJAX 요청 
-### Registeration - AJAX Request
+### Registration - AJAX Request
 
 ![image](./register.jpg) 
 ![image](./register2.jpg) 
