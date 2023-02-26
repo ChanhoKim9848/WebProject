@@ -39,3 +39,13 @@ Asynchronous processing - process the work without following the sequence of the
 
 ![image](./register.jpg) 
 ![image](./register2.jpg) 
+
+
+# 26/02/2023
+
+### 회원가입 - DB에 데이터 삽입
+### Registration - Put the data into the DB
+
+![image](./RegistrationDB.jpg) 
+![image](./RegistrationDB2.jpg) 
+
