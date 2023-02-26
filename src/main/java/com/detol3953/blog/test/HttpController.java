@@ -1,4 +1,4 @@
-package com.detol3953.blog;
+package com.detol3953.blog.test;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PutMapping;

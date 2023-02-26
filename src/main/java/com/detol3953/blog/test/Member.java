@@ -1,4 +1,4 @@
-package com.detol3953.blog;
+package com.detol3953.blog.test;
 
 
 import lombok.AllArgsConstructor;

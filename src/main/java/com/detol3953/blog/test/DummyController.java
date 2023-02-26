@@ -1,4 +1,4 @@
-package com.detol3953.blog;
+package com.detol3953.blog.test;
 
 import java.util.List;
 import java.util.function.Supplier;
