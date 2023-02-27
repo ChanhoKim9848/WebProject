@@ -13,3 +13,16 @@ Fixed the problem that user can create same accounts multiple times
 
 ### User.java
 ![image](./Unique2.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+### DB 격리수준 
