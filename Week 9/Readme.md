@@ -9,10 +9,10 @@ Fixed the problem that user can create same accounts multiple times
 
 
 ### Application.yml
-![image](./Unique.jpg)
+![image1](./Unique.jpg)
 
 ### User.java
-![image](./Unique2.jpg)
+![image2](./Unique2.jpg)
 
 
 
