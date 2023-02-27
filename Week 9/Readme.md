@@ -6,8 +6,6 @@
 Fixed the problem that user can create same accounts multiple times
 
 
-
-
 ### Application.yml
 ![image1](./Unique.jpg)
 
@@ -17,12 +15,12 @@ Fixed the problem that user can create same accounts multiple times
 
 
 
+### DB 격리수준
 
+트랜잭션: 일을 처리하기 위한 가장 작은 단위
+Transaction: a smallest single unit to work and process
 
+### Oracle
+Read and Commit
 
-
-###
-###
-###
-###
-### DB 격리수준 
+![OC](./OracleReadCommit.jpg)   
