@@ -20,7 +20,7 @@ Fixed the problem that user can create same accounts multiple times
 트랜잭션: 일을 처리하기 위한 가장 작은 단위
 Transaction: a smallest single unit to work and process
 
-### Oracle
-Read and Commit
+### Oracle - Read and Commit
+
 
 ![OC](./OracleReadCommit.jpg)   
