@@ -15,7 +15,7 @@ Fixed the problem that user can create same accounts multiple times
 
 
 
-### DB 격리수준
+### DB 격리수준 - DB Isolation Level
 
 트랜잭션: 일을 처리하기 위한 가장 작은 단위
 Transaction: a smallest single unit to work and process
@@ -24,3 +24,14 @@ Transaction: a smallest single unit to work and process
 
 
 ![OC](./OracleReadCommit.jpg)   
+
+
+# 28/02/2023 
+
+### MYSQL Isolation Level
+
+### MYSQL - Repeatable Read
+
+Mysql uses InnoDB Storage Engine 
+
+
