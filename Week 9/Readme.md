@@ -33,6 +33,7 @@ Transaction: a smallest single unit to work and process
 ### MYSQL - Repeatable Read
 
 Mysql은 InnoDB Storage Engine을 사용함
+
 Mysql uses InnoDB Storage Engine 
 
 Repeatable Read: 하나의 트랜잭션 내에서 동일 select 쿼리를 실행했을 때는 항상 같은 결과를 가져와야 한다는 정합성 정의
