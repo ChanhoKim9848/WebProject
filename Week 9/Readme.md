@@ -44,3 +44,5 @@ Repeatable Read: In a transaction, the same select queries must have same result
 
 ![RD](./RepeatableRead.jpg)  
                       
+                      
+
