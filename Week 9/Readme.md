@@ -45,4 +45,6 @@ Repeatable Read: In a transaction, the same select queries must have same result
 ![RD](./RepeatableRead.jpg)  
                       
                       
+# 02/03/2023
 
+### SPRING JPA and OSIV Strategy
