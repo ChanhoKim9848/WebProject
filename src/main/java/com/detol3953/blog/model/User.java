@@ -41,8 +41,9 @@ public class User {
 	// Oracle : Sequence,  MySQL:  Auto increment
 	
 	private int id; // Sequence, auto_increment
-	
-	@Column(nullable = false, length = 30)
+	  
+	                   
+	@Column(nullable = false, length = 30, unique=true)  // unique id (아이디 중복 생성방지)
 	private String username; // account name
 	
 	@Column(nullable = false, length = 100) // Can't be Null, Hash password (encoded)
