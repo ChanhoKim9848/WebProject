@@ -12,10 +12,11 @@ public interface UserRepository extends JpaRepository<User, Integer> {
     // Primary Key = Integer
 	
 	
-	//JPA 네이밍 쿼리 전략 - Naming Query Strategy
-	// SELECT * FROM user WHERE username = ?1 AND password = ?2;
-	User findByUsernameAndPassword(String username, String password); 
-	
-//	@Query(value="SELECT * FROM user WHERE username = ?1 AND password = ?2;", nativeQuery = true)
-//	User login(String username, String password);
+
 }
+//JPA 네이밍 쿼리 전략 - Naming Query Strategy
+// SELECT * FROM user WHERE username = ?1 AND password = ?2;
+// User findByUsernameAndPassword(String username, String password); 
+
+//@Query(value="SELECT * FROM user WHERE username = ?1 AND password = ?2;", nativeQuery = true)
+//User login(String username, String password);

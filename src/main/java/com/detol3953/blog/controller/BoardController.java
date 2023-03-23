@@ -8,8 +8,8 @@ public class BoardController {
 	
 	//    http://localhost:8000/blog/
 	//    http://localhost:8000/blog
-	@GetMapping({"","/"})
 	
+	@GetMapping({"","/"})
 	public String index() {
 		
 		// /WEB-INF/views/index.jsp

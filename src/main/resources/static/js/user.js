@@ -3,9 +3,9 @@ let index = {
 		$("#btn-save").on("click", () => { // function(){}, ()=>{} this를 바인딩 하기 위해서 (binding this)
 			this.save();
 		});
-		$("#btn-login").on("click", () => { // function(){}, ()=>{} this를 바인딩 하기 위해서 (binding this)
+/*		$("#btn-login").on("click", () => { // function(){}, ()=>{} this를 바인딩 하기 위해서 (binding this)
 			this.login();
-		});
+		}); */
 	},
 
 	save: function() {
@@ -24,7 +24,7 @@ let index = {
 		//  json type with ajax communication  and request insert
 		$.ajax({
 			type: "POST",
-			url: "/blog/api/user",
+			url: "/auth/joinProc",
 			data: JSON.stringify(data), // http body data
 			
 			contentType: "application/json; charset=utf-8",
@@ -41,14 +41,19 @@ let index = {
 
 			// 회원가입 후 메인화면 리턴
 			// return m ain page after the register
-			location.href = "/blog";
+			location.href = "/";
 
 		}).fail(function(error) {    // fail
 			alert(JSON.stringify(error));
 		});
 	},
 	
-		login: function() {
+	
+	
+	
+	
+	
+/*		login: function() {
 		// alert("save function called in user")
 		let data = {
 			username: $("#username").val(),
@@ -57,7 +62,7 @@ let index = {
 
 		$.ajax({
 			type: "POST",
-			url: "/blog/api/user/login",
+			url: "/api/user/login",
 			data: JSON.stringify(data), // http body data
 			
 			contentType: "application/json; charset=utf-8",
@@ -72,13 +77,14 @@ let index = {
 			alert("Login Successful!");
 
 			// 회원가입 후 메인화면 리턴
-			// return m ain page after the register
-			location.href = "/blog";
+			// return main page after the register
+			location.href = "/";
 
 		}).fail(function(error) {    // fail
 			alert(JSON.stringify(error));
-		});
+		});   
 	}
+	*/
 }
 
 index.init();
