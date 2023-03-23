@@ -19,7 +19,7 @@ if the url is /... then users are allowed to use index page
 static pages are viewed  /js/**, /css/** , /image/** 
 
 #
-#
+
 
 ### 유저가 로그인 되어있지 않다면, 로그인 화면으로 가진다
 
