@@ -12,11 +12,11 @@ static 이하에 있는 /js/**, /css/**, /image/** 허용
 
 
 
-users who are not authenticated, they go to /auth/**
+### users who are not authenticated, they go to /auth/**
 
-if the url is /... then index.jsp users are allowed to use
+### if the url is /... then index.jsp users are allowed to use
 
-static   /js/**, /css/** , /image/** allowed
+### static   /js/**, /css/** , /image/** allowed
 
 
 ### 유저가 로그인 되어있지 않다면, 로그인 화면으로 가진다
