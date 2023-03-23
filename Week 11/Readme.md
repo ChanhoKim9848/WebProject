@@ -1,7 +1,6 @@
 # 23/03/2023
 
-### 로그인 페이지 커스터마이징 
-### Login Page Customizing
+### 로그인 페이지 커스터마이징 - Login Page Customizing
 
 
 인증이 안된 사용자들이 출입할 수 있는 경로를 /auth/** 허용
