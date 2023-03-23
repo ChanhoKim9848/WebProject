@@ -18,7 +18,9 @@ static 이하에 있는 /js/**, /css/**, /image/** 허용
 
 ### static   /js/**, /css/** , /image/** allowed
 
+#
+#
 
-# 유저가 로그인 되어있지 않다면, 로그인 화면으로 가진다
+### 유저가 로그인 되어있지 않다면, 로그인 화면으로 가진다
 
- If users are not logged in, they cannot go to index.html page
+### If users are not logged in, they cannot go to index.html page
