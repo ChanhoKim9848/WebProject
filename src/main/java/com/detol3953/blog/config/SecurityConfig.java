@@ -8,7 +8,8 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration // IoC
 public class SecurityConfig {
-
+	
+	
 	@Bean
 	BCryptPasswordEncoder encode() {
 		return new BCryptPasswordEncoder();
@@ -17,8 +18,9 @@ public class SecurityConfig {
 	@Bean
 	SecurityFilterChain configure(HttpSecurity http) throws Exception {
 		http
+		        .csrf().disable()
 				.authorizeRequests()
-				.antMatchers("/auth/**")
+				.antMatchers("/", "/auth/**", "/js/**", "/css/**", "/image/**")
 				.permitAll()
 				.anyRequest()
 				.authenticated()
