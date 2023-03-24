@@ -37,5 +37,8 @@ static pages are viewed  /js/**, /css/** , /image/**
 assigning a numeric or alphanumeric string to a piece of data by applying a hash function whose output values
 are all the same number of bits in length
 
+![poster](./Hash.jpg)
+
+![poster](./Hash2.jpg)
 
 
