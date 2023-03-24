@@ -24,3 +24,17 @@ static pages are viewed  /js/**, /css/** , /image/**
 ### 유저가 로그인 되어있지 않다면, 로그인 화면으로 가진다
 
 ### If users are not logged in, they cannot go to index page
+
+
+# 24/03/2023
+
+### 비밀번호 해쉬암호화 - HASH PASSWORD
+
+### 해쉬란
+비밀번호를 고정길이의 16진수값으로 변경해서 저장하는 방식
+
+### Hashing
+assigning a numeric or alphanumeric string to a piece of data by applying a function whose output values
+are all the same number of bits in length
+
+
