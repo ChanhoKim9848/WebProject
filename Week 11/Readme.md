@@ -51,6 +51,7 @@ a web security vulnerability that allows an attacker to induce users to perform 
 
 
 XSS
+
 자바스크립트로 공격하는 방식
 Attacking with type of injection with JavaScript
 
