@@ -56,7 +56,7 @@ Attacking with type of injection with JavaScript
 
 
 
-![poster](./XSS.jpg)
+![poster](./xss.jpg)
 
 
 XSS, CSRF 방어법
