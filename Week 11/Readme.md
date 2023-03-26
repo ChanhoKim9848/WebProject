@@ -42,3 +42,18 @@ are all the same number of bits in length
 ![poster](./Hash2.jpg)
 
 
+# 26/03/2023
+
+### CSRF - Cross-site request forgery , XSS - Cross-site Scripting
+
+XSS - 자바스크립트 공격 
+Attacking with type of injection with JavaScript 
+
+![poster](./XSS.jpg)
+
+
+XSS, CSRF 방어법
+Prevent XSS and CSRF
+
+1. Using CSRF Token
+2. Post Request
