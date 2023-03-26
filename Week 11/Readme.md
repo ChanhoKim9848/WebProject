@@ -47,6 +47,7 @@ are all the same number of bits in length
 ### CSRF - Cross-site request forgery , XSS - Cross-site Scripting
 
 CSRF
+
 a web security vulnerability that allows an attacker to induce users to perform actions that they do not intend to perform
 
 
