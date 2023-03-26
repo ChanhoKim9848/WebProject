@@ -46,8 +46,15 @@ are all the same number of bits in length
 
 ### CSRF - Cross-site request forgery , XSS - Cross-site Scripting
 
-XSS - 자바스크립트 공격 
-Attacking with type of injection with JavaScript 
+CSRF
+a web security vulnerability that allows an attacker to induce users to perform actions that they do not intend to perform
+
+
+XSS
+자바스크립트로 공격하는 방식
+Attacking with type of injection with JavaScript
+
+
 
 ![poster](./XSS.jpg)
 
