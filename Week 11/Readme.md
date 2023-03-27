@@ -68,6 +68,7 @@ Prevent XSS and CSRF
 1. Using CSRF Token
 2. Post Request
 
+
 # 27/03/2023
 
 ### Spring Security Login
