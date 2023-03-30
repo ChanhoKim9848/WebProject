@@ -1,4 +1,6 @@
 package com.detol3953.blog.repository;
+import java.util.Optional;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
@@ -11,7 +13,8 @@ public interface UserRepository extends JpaRepository<User, Integer> {
     // 1, Repository of User Table
     // Primary Key = Integer
 	
-	
+	// SELECT * FROM USER WHERE username = 1?;
+	Optional<User> findByUsername(String username);
 
 }
 //JPA 네이밍 쿼리 전략 - Naming Query Strategy
