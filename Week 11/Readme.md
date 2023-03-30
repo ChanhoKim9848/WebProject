@@ -79,7 +79,7 @@ Prevent XSS and CSRF
 
 Encoded password does not look like BCrypt -> Password should be Encoded
 
-### 30/03/2023
+# 30/03/2023
 
 로그인 요청 (/auth/loginProc) -> SecurityConfig.java 가 PrincipalDetailService.java에 있는 loadUserByUsername으로 username,password 전송 ->
 
