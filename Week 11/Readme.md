@@ -75,4 +75,18 @@ Prevent XSS and CSRF
 
 # 28/03/2023
 
-### TROUBLE 
+### TROUBLE SHOOTING
+
+Encoded password does not look like BCrypt -> Password should be Encoded
+
+### 30/03/2023
+
+로그인 요청 (/auth/loginProc) -> SecurityConfig.java 가 PrincipalDetailService.java에 있는 loadUserByUsername으로 username,password 전송 ->
+
+username을 데이터베이스에서 비교 -> username의 password를 encodePWD()에 넣어서 데이터베이스 안에있는 해쉬화된 비밀번호와 비교해서 로그인
+
+#
+Login Request (/auth/loginProc) -> SecurityConfig.java gets username and password, and send it to loadUserByUsername method in PrincipalDetailService.java
+
+compare username in Database -> put password of username in encodePWD() method and compare hashed password in database
+
