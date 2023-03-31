@@ -90,3 +90,7 @@ Login Request (/auth/loginProc) -> SecurityConfig.java gets username and passwor
 
 compare username in Database -> put password of username in encodePWD() method and compare hashed password in database
 
+
+# 31/03/2023
+
+### Writing on Board
