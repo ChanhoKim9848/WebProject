@@ -41,7 +41,6 @@ public class Board {
 	private String content; // 섬머노트 라이브러리 <html>태그가 섞여서 디자인됨, 
 	                                            // Summernote library, board designed with <html> tags
 	
-	@ColumnDefault("0")
 	private int count; // visits
 	
 	
