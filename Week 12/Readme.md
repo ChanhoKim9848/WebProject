@@ -9,7 +9,7 @@
 ![image](./write2.jpg)
 
 ![image](./blank.jpg)
-![image](./blank.jpg)
+
 
 # 04/04/2023
 
