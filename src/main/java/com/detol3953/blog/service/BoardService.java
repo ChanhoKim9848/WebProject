@@ -2,6 +2,8 @@ package com.detol3953.blog.service;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import com.detol3953.blog.model.Board;
@@ -15,14 +17,14 @@ public class BoardService {
 	private BoardRepository boardRepository;
 	
 	@Transactional
-	public void Post(Board board, User user) {  // title, content
+	public void Post(Board board, User user ) {  // title, content
 		board.setCount(0);
 		board.setUser(user);
 		boardRepository.save(board);
 	}
 	
 	
-	public List<Board> PostList(){
-		return boardRepository.findAll();
+	public Page<Board> PostList(Pageable pageable){
+		return boardRepository.findAll(pageable);
 	}
 }

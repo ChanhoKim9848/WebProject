@@ -2,6 +2,9 @@ package com.detol3953.blog.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -22,8 +25,8 @@ public class BoardController {
 	
 	//컨트롤러에서 세션을 어떻게 찾는지?
 	@GetMapping({"","/"})
-	public String index(Model model) {
-		model.addAttribute("boards", boardService.PostList());
+	public String index(Model model, @PageableDefault(size=3, sort="id", direction=Sort.Direction.DESC) Pageable pageable) {
+		model.addAttribute("boards", boardService.PostList(pageable));
 		return "index"; // viewResolver activated
 	}
 	// USER 권한이 필요
