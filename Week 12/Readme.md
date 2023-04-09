@@ -24,7 +24,6 @@
 
 ### Paging Post List
 
-![image](./blank.jpg)
 
 
 # 06/04/2023
