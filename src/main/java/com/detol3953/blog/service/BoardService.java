@@ -27,4 +27,14 @@ public class BoardService {
 	public Page<Board> PostList(Pageable pageable){
 		return boardRepository.findAll(pageable);
 	}
+	
+	public Board Read(int id) {
+		return boardRepository.findById(id)
+				.orElseThrow(()->{
+					return new IllegalArgumentException("Cannot Read! : cannot find id!");
+				});
+	}
+	
+	
+	
 }
