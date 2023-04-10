@@ -3,6 +3,10 @@ let index = {
 		$("#btn-save").on("click", () => {
 			this.save();
 		});
+		
+		$("#btn-delete").on("click", () => {
+			this.deleteById();
+		});		
 	},
 
 	save: function() {
@@ -21,7 +25,25 @@ let index = {
 			
 			dataType: "json" 
 		}).done(function(resp) { 
-			alert("Post Successful!");
+			alert("Posted Successfully!");
+			location.href = "/";
+
+		}).fail(function(error) {    // fail
+			alert(JSON.stringify(error));
+		});
+	},
+	
+	deleteById: function() {
+		
+		var id = $("#id").text();
+
+		$.ajax({
+			type: "DELETE",
+			url: "/api/board/"+id,
+			dataType: "json" 
+			
+		}).done(function(resp) { 
+			alert("Deleted Successfully!");
 			location.href = "/";
 
 		}).fail(function(error) {    // fail
