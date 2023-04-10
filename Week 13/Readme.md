@@ -2,7 +2,7 @@
 
 ### Delete Post
 ![image](./Delete.jpg)
-
+![image](./blank.jpg)
 ![image](./Delete2.jpg)
 
 ![image](./Delete3.jpg)
