@@ -1,4 +1,4 @@
-package com.detol3953.blog.controller;
+	package com.detol3953.blog.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -36,10 +36,17 @@ public class BoardController {
 	public String findById(@PathVariable int id, Model model) {
 		model.addAttribute("board", boardService.Read(id));
 		return "board/Read";
-		
 	}
 	
+	@GetMapping("/board/{id}/updateForm")
+	public String updateForm(@PathVariable int id, Model model) {
+		model.addAttribute("board", boardService.Read(id));
+		return "board/updateForm";
+	}
+	
+	
 	// USER 권한이 필요
+	// USER's permission needed
 		@GetMapping("/board/saveForm")
 		public String saveForm() {
 			return "board/saveForm";

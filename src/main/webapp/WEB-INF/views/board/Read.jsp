@@ -4,9 +4,15 @@
 <div class="container">
 
         <button class="btn btn-secondary" onclick="history.back()">Back</button>
-        <button id="btn-update" class="btn btn-warning">Edit</button>
+        
+        <!--  자신의 글만 수정하거나 삭제 가능  -->
+        <!-- User can only delete or edit their posts  -->
         <c:if test="${board.user.id == principal.user.id }">
-        <button id="btn-delete" class="btn btn-danger">Delete</button>
+        
+        <!-- Edit 버튼 누를 시 updateForm 으로 가짐  -->
+        <!-- Edit button goes to updateForm  -->
+            <a href="/board/${board.id}/updateForm" class="btn btn-warning">Edit</a>
+            <button id="btn-delete" class="btn btn-danger">Delete</button>
         </c:if>
         <br/><br/>
         
