@@ -8,4 +8,4 @@
 
 ![image](./EditProfile.jpg)
 
-![image](./EditProfile.jpg)
+![image](./EditProfile2.jpg)
