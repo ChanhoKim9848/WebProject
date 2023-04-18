@@ -3,13 +3,12 @@ package com.detol3953.blog.controller.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.detol3953.blog.dto.ResponseDto;
-import com.detol3953.blog.model.RoleType;
 import com.detol3953.blog.model.User;
 import com.detol3953.blog.service.UserService;
 
@@ -27,6 +26,14 @@ public class UserApiController {
 		// Insert into DB and return
 		userService.Registration(user);
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
+	}
+	
+	@PutMapping("/user")
+	public ResponseDto<Integer> update(@RequestBody User user){ //key=value, x-www-form-urlencoded
+		userService.EditProfile(user);
+		return new ResponseDto<Integer>(HttpStatus.OK.value(),1);
+		
+		
 	}
 
 //	@PostMapping("/api/user/login")

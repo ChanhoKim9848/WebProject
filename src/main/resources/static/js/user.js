@@ -3,6 +3,9 @@ let index = {
 		$("#btn-save").on("click", () => { // function(){}, ()=>{} this를 바인딩 하기 위해서 (binding this)
 			this.save();
 		});
+		$("#btn-update").on("click", () => { // function(){}, ()=>{} this를 바인딩 하기 위해서 (binding this)
+			this.update();
+		});
 /*		$("#btn-login").on("click", () => { // function(){}, ()=>{} this를 바인딩 하기 위해서 (binding this)
 			this.login();
 		}); */
@@ -47,7 +50,26 @@ let index = {
 			alert(JSON.stringify(error));
 		});
 	},
-	
+	update: function() {
+		let data = {
+			id: $("#id").val(),
+			password: $("#password").val(),
+			email: $("#email").val()
+		};
+		$.ajax({
+			type: "PUT",
+			url: "/user",
+			data: JSON.stringify(data), // http body data
+			contentType: "application/json; charset=utf-8",
+			dataType: "json"
+		}).done(function(resp) {   // done
+			alert("Profile Editted Successfully!");
+			console.log(resp);
+			location.href = "/";
+		}).fail(function(error) {    // fail
+			alert(JSON.stringify(error));
+		});
+	},	
 	
 	
 	
