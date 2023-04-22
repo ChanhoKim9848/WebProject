@@ -13,13 +13,13 @@
 
 # 22/04/2023
 
-user can change user info and the user info in the database changes, however the user info does not change when we check it in user info again
+### user can change user info and the user info in the database changes, however the user info does not change when we check it in user info again
 
 ![image](./EditProfile.jpg)
 
 ![image](./EditProfile2.jpg)
 
-![image](./blank.jpg)
+![image](./blank1.jpg)
 
 
 ### so we need to change session to show user info has changed in database
@@ -27,7 +27,6 @@ user can change user info and the user info in the database changes, however the
 
 ![image](./SpringSecurity.jpg)
 
-![image](./blank.jpg)
 
 1) AuthenticationFilter gets the user info
 
