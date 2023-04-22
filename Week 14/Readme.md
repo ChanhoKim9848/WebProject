@@ -19,11 +19,15 @@ user can change user info and the user info in the database changes, however the
 
 ![image](./EditProfile2.jpg)
 
+![image](./blank.jpg)
 
-so we need to change session to show user info has changed in database
+
+### so we need to change session to show user info has changed in database
 
 
 ![image](./SpringSecurity.jpg)
+
+![image](./blank.jpg)
 
 1) AuthenticationFilter gets the user info
 
