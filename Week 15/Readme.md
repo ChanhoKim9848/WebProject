@@ -6,4 +6,3 @@
 
 ![image](./Edit2.jpg)
 
-![image](./Edit3.jpg)
