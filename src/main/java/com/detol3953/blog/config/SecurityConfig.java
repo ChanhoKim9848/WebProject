@@ -3,7 +3,9 @@ package com.detol3953.blog.config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -20,6 +22,15 @@ public class SecurityConfig{
 	
 	@Autowired
 	private PrincipalDetailService principalDetailService;
+	
+	@Bean
+	public AuthenticationManager authenticationManager(AuthenticationConfiguration authenticationConfiguration)
+			throws Exception {
+	    return authenticationConfiguration.getAuthenticationManager();
+	}
+	
+	
+	
 	
 	// 1. Bean 어노테이션은 메서드에 붙여서 객체 생성시 사용
 
@@ -41,7 +52,7 @@ public class SecurityConfig{
 	        .csrf().disable() //csrf 토큰 비활성화 (테스트시 걸어두는게 좋음)
 	        
 	        .authorizeRequests()
-	          .antMatchers("/","/auth/**","/js/**","/css/**", "/images/**", "/dummy/**")
+	          .antMatchers("/","/auth/**","/js/**","/css/**", "/images/**", "/dummy/**", "/image/**")
 	          .permitAll()
               .anyRequest()
               .authenticated()
