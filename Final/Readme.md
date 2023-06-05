@@ -11,6 +11,7 @@
 
 ![image](./kakaoLogin2.jpg)
 
+![image](./blank.jpg)
 
 # 05/06/2023
 
