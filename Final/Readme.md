@@ -10,3 +10,8 @@
 ![image](./kakaoLogin.jpg)
 
 ![image](./kakaoLogin2.jpg)
+
+
+# 05/06/2023
+
+### Paused development of KAKAO LOGIN
