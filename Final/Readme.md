@@ -16,3 +16,11 @@
 # 05/06/2023
 
 ### Paused development of KAKAO LOGIN
+
+![image](./blank.jpg)
+
+# 06/06/2023
+
+### COMMENTS SECTION
+
+![image](./Comment.jpg)
