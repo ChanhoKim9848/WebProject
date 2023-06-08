@@ -8,14 +8,20 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.detol3953.blog.config.auth.PrincipalDetail;
 import com.detol3953.blog.model.Board;
+import com.detol3953.blog.model.Reply;
 import com.detol3953.blog.model.User;
 import com.detol3953.blog.repository.BoardRepository;
+import com.detol3953.blog.repository.ReplyRepository;
 
 @Service
 public class BoardService {
 	
 	@Autowired
 	private BoardRepository boardRepository;
+	
+	@Autowired
+	private ReplyRepository replyRepository;
+	
 	
 	@Transactional
 	public void Post(Board board, User user ) {  // title, content
@@ -73,4 +79,26 @@ public class BoardService {
 	  		  board.setTitle(requestBoard.getTitle());
 			  board.setContent(requestBoard.getContent());	   
 	  }
+	  
+	  @Transactional
+	  public void Comment(User user,int boardId, Reply requestReply) {
+		  
+		  Board board = boardRepository.findById(boardId).orElseThrow(() -> {
+	            return new IllegalArgumentException("Failed to Comment! : Board's ID not found!");
+	            
+	        });
+		  
+		  requestReply.setUser(user);
+		  requestReply.setBoard(board);
+		  
+		  replyRepository.save(requestReply);
+		  
+	  }
+	  
+	  @Transactional
+	  public void DeleteComment(int replyId) {
+		  replyRepository.deleteById(replyId);
+	  }
+	  
+	  
 }

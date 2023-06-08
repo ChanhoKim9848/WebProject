@@ -34,28 +34,33 @@
 
 	<!-- Comment, 댓글 -->
 	<div class="card">
-		<div class="card-body">
-			<textarea class="form-control" rows="1"></textarea>
-		</div>
-		<div class="card-footer"">
-			<button class="btn btn-primary">Comment</button>
-		</div>
+
+		<form>
+			<input type="hidden" id="boardId" value="${board.id}" />
+			<div class="card-body">
+				<textarea id="reply-content" class="form-control" rows="1"></textarea>
+			</div>
+			<div class="card-footer"">
+				<button type="button" id="btn-reply-save" class="btn btn-primary">Comment</button>
+			</div>
+		</form>
 	</div>
 
 	<!-- Comments list,    댓글 리스트 -->
 	<br />
 	<div class="card">
 		<div class="card-header">Comments</div>
-		<ul id="comment--box" class="list-group">
-			<li id="comment--1" class="list-group-item d-flex justify-content-between">
-				<div>Contents</div>
-				<div class="d-flex">
-					<div class="font-italic">Author: detol &nbsp;&nbsp;</div>
-					<button class="badge">Delete</button>
-				</div>
-			</li>
+		<ul id="reply-box" class="list-group">
+			<c:forEach var="reply" items="${board.replies}">
+				<li id="reply-${reply.id}" class="list-group-item d-flex justify-content-between">
+					<div>${reply.content }</div>
+					<div class="d-flex">
+						<div class="font-italic">Author: ${reply.user.username } &nbsp;&nbsp;</div>
+						<button onClick="index.replyDelete(${board.id}, ${reply.id})" class="badge">Delete</button>
+					</div>
+				</li>
+			</c:forEach>
 		</ul>
-
 	</div>
 </div>
 

@@ -10,6 +10,9 @@ let index = {
 		
 		$("#btn-update").on("click", () => {
 			this.update();
+		});	
+		$("#btn-reply-save").on("click", () => {
+			this.replySave();
 		});		
 	},
 
@@ -78,6 +81,42 @@ let index = {
 			alert(JSON.stringify(error));
 		});
 	},
+	
+	replySave: function() {
+		let data = {
+			content: $("#reply-content").val()
+		};
+		
+		let boardId = $("#boardId").val();
+		
+		console.log(data);
+
+		$.ajax({
+			type: "POST",
+			url: `/api/board/${boardId}/reply`,
+			data: JSON.stringify(data), 
+			contentType: "application/json; charset=utf-8",
+			dataType: "json" 
+		}).done(function(resp) { 
+			alert("Commented Successfully!");
+			location.href = `/board/${boardId}`;
+		}).fail(function(error) {    // fail
+			alert(JSON.stringify(error));
+		});
+	},	
+	
+	replyDelete: function(boardId, replyId) {
+		$.ajax({
+			type: "DELETE",
+			url: `/api/board/${boardId}/reply/${replyId}`,
+			dataType: "json" 
+		}).done(function(resp) { 
+			alert("Comment Deleted!");
+			location.href = `/board/${boardId}`;
+		}).fail(function(error) {    // fail
+			alert(JSON.stringify(error));
+		});
+	}	
 	
 }
 

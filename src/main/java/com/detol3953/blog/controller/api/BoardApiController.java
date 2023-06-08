@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.detol3953.blog.config.auth.PrincipalDetail;
 import com.detol3953.blog.dto.ResponseDto;
 import com.detol3953.blog.model.Board;
+import com.detol3953.blog.model.Reply;
 import com.detol3953.blog.service.BoardService;
 
 @RestController
@@ -41,4 +42,24 @@ public class BoardApiController {
 		boardService.EditPost(id, principal, board);
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
 	}
+	
+	
+
+	@PostMapping("/api/board/{boardId}/reply")
+	public ResponseDto<Integer> replySave(@PathVariable int boardId, 
+			@RequestBody Reply reply,
+			@AuthenticationPrincipal PrincipalDetail principal) {
+		
+		// Insert into DB and return
+		boardService.Comment(principal.getUser(), boardId,reply);
+		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
+	}	
+	
+	@DeleteMapping("/api/board/{boardId}/reply/{replyId}")
+	public ResponseDto<Integer> replyDelete(@PathVariable int replyId){
+		boardService.DeleteComment(replyId);
+		return new ResponseDto<Integer>(HttpStatus.OK.value(),1);
+	}
+	
+	
 }
