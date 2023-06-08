@@ -33,3 +33,12 @@
 ![image](./Comment2.jpg)
 
 ![image](./Comment3.jpg)
+
+![image](./blank.jpg)
+
+# 08/06/2023
+
+![image](./DeleteComment3.jpg)
+
+![image](./DeleteComment4.jpg)
+
